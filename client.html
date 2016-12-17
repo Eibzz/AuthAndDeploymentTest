@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+
+<head>
+	<link rel="stylesheet" href="style.css">
+	<meta charset="UTF-8">
+</head>
+
+<body>
+	<div id="left-column">
+		<div id="input-section-register" class="section">
+			<h3 id="register-prompt" class="input-item">Register</h3>
+			<input type="email" id="register-email" class="input-item" placeholder="email"></input>
+			<input type="password" id="register-password" class="input-item" placeholder="password"></input>
+			<input type="text" id="register-firstname" class="input-item" placeholder="first name"></input>
+			<input type="text" id="register-lastname" class="input-item" placeholder="last name"></input>
+			<button id="input-register">Register</button>
+		</div>
+		<div id="input-section-login" class="section">
+			<h3 id="login-prompt" class="input-item">Login</h3>
+			<input type="email" id="login-email" class="input-item" placeholder="email"></input>
+			<input type="password" id="login-password" class="input-item" placeholder="password"></input>
+			<button id="input-login">Login</button>
+		</div>
+		<div id="input-section-message" class="section">
+			<textarea id="message" placeholder="Message."></textarea>
+			<button id="send-message">Send</button>
+		</div>
+	</div>
+	<div id="right-column" class="section">
+		<ul id="message-list">
+			<li>Sign up or login to see messages.</li>
+		</ul>
+	</div>
+	<script src="main.js"></script>
+</body>

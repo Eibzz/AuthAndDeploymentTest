@@ -1,0 +1,101 @@
+body {
+	font-family: Verdana;
+}
+
+.section {
+	width: 200px;
+	border-style: solid;
+	border-width: 2px;
+	border-radius: 4px;
+	border-color: #E38A00;
+	background-color: #E3D77A;
+}
+
+#input-section-login {
+	margin-top: 8px;
+}
+
+.input-item {
+	display: flex;
+	margin: 2px auto 2px auto;
+	width: 170px;
+}
+
+#input-login, #input-register {
+	position: relative;
+	left: 13px;
+	margin-bottom: 10px;
+}
+
+#login-prompt, #register-prompt {
+	margin-top: 10px;
+	margin-bottom: 10px;
+	justify-content: center;
+}
+
+#left-column {
+	float: left;
+	width: 45%;
+}
+
+#right-column {
+	float: right;
+	width: 45%;
+	height: 600px;
+	overflow-y: scroll;
+}
+
+#input-section-message {
+	width: 100%;
+	visibility: hidden;
+}
+
+#message {
+	display: flex;
+	margin: 10px auto 2px auto;
+	width: 95%;
+	height: 200px;
+	overflow-y: scroll;
+}
+
+#send-message {
+	position: relative;
+	left: 13px;
+	margin-bottom: 10px;
+}
+
+#message-list {
+	list-style-type: square;
+}
+
+.message-item {
+	margin-bottom: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,5 +1,5 @@
 # AuthAndDeploymentTest
-A web application I made to test REST endpoints, postgreSQL, cloud deployment, authentication and authorization.
+A message board web application I made to study REST endpoints, postgreSQL, cloud deployment, and user authentication + authorization.
 
 # Resources
 
@@ -62,7 +62,7 @@ encpass = bcrypt.encrypt(parsed_data['encpass'][0])
 # uses random salt
 ```
 
-
+DISCLAIMER: This project is for self-study purposes.
 
 
 

@@ -62,9 +62,6 @@ encpass = bcrypt.encrypt(parsed_data['encpass'][0])
 # uses random salt
 ```
 
-DISCLAIMER: This project is for self-study purposes.
-
-
 
 
 
